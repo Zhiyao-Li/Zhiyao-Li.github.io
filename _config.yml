@@ -24,18 +24,18 @@ sass:
 url: ziolee.com # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: Zio Lee
-description: "A gem-based responsive simple texture styled Jekyll theme."
-keywords: 'jekyll,theme,gem-based,blog'
+description: "Zio's Blog"
+keywords: 'zio,blog'
 author:
-  name:
-  job_title:
-  location:
-  email:
+  name: Zio Lee
+  job_title: PhD candidate
+  location: China
+  email: pingziwalk@gmail.com
   social_links:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/Zhiyao-Li/Zhiyao-Li.github.io
+      url: https://github.com/Zhiyao-Li
     - name: instagram
       url:
     - name: linkedin
@@ -47,13 +47,13 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>Simple Texutre</h1>
-  section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
+  section1: <h1>Zio's homepage</h1>
+  section2: <h2>A PhD candidate in Computer System & Architecture</h2>
+  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/Zhiyao-Li" title="View on GitHub"></a></div>
 blog:
-  cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
-  cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
-  footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
+  cc_license: https://creativecommons.org/licenses/by-nc-sa/4.0/ # A link to CC License of your choice.
+  cc_license_image: /assets/images/theme/cc-by-nc-sa.png # An image of your CC License. 
+  footer_content: Compute my life.
 
 disqus:
   shortname: zzzyl # e.g. yizeng
