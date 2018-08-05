@@ -61,6 +61,9 @@ disqus:
 google_tag_manager: # e.g. 'GTM-KCQJXZ8F'
 addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. ra-53329e27694534j5 
 
+#Google analytics
+google_analytics: UA-123394387-1
+
 paths:
   home: /
   blog: /blog/
