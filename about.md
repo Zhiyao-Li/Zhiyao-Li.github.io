@@ -8,9 +8,9 @@ titles:
 key: page-about
 ---
 
-#Bio
+# Bio
 
-![bio_pic](pics/bio_pic.jpg)
+![bio_pic](pics/bio_pic1.jpg)
 
 I'm a fresh PhD student at Tsinghua University, majoring in computer system and architecture.
 
@@ -20,4 +20,4 @@ Hometown is Chengdu, Sichuan.
 
 Keen on various kinds of music(except ballad ones), recently fascinated by trap and the group Higher Brothers.
 
-![higher_brothers](pics/Higher_Brothers.jpg)
+![higher_brothers](pics/Higher_Brothers.jpg){:height="36px", width="36px"}
