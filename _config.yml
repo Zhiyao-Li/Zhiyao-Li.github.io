@@ -106,7 +106,7 @@ sources: # bootcdn (default), unpkg
 ## => Comments
 ##############################
 comments:
-  provider: disqus # false (default), "disqus", "gitalk", "custom"
+  provider: false # false (default), "disqus", "gitalk", "custom"
 
   ## Disqus
   disqus:
@@ -138,7 +138,7 @@ pageview:
 ## => Analytics
 ##############################
 analytics:
-  provider: true # false (default), "google", "custom"
+  provider: google # false (default), "google", "custom"
 
   ## Google Analytics
   google:
