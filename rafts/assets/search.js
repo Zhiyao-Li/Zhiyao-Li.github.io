@@ -1,0 +1,1 @@
+window.TEXT_SEARCH_DATA={'posts':[{'title':'Welcome','url':'%2F2018%2F07%2F01%2Fwelcome.html'},{'title':'Abstracts+reading+--+ISCA+2018','url':'%2F2018%2F09%2F16%2FISCA-2018.html'}]};
