@@ -1,6 +1,6 @@
 ---
 layout: article
-title: MicroSoft's Brainwave
+title: MicroSoft Brainwave Project
 key: 20181205
 lang: en
 tags: [domain-specific hardware, neural network]
@@ -13,12 +13,14 @@ Project Brainwave, Microsoft's principal infrastructure designed for real-time A
 
 Project Brainwave leverages the massive high-performance FPGA infrastructure directly connected with the datacenter network as a resource pool and exposes it as hardware microsrvices. By pinning pre-trained DNN models across multiple FPGAs and pinning model parameters entirely in high-bandwidth on-chip memories, this system achieve near-peak processing efficiencies at low batch sizes.
 
+<!--more-->
+
 ### Catapult-enhanced servers
 The Brainwave system targets Microsoft's hyperscale datacenter architecture with Catapult-enhanced servers. Each FPGA operates in-line between the server's network interface card (NIC) and the top-of-rack (TOR) switch, enabling in-situ processing of network packets and point-to-point connectivity between "hundreds of thousands" of FPGAs at low latency. Microsoft disaggregates FPGAs from CPUs to form an independent hardware microservices, which enables two critical capabilities:
   * the ability to reclaim underutilized resources for other services by rebalancing the subscription between CPUs and FPGAs
   * supporting workloads that cannot fit or run effectively on a single FPGA
 
-![BrainwaveNetwork](https://blog-1256135234.cos.ap-chengdu.myqcloud.com/Brainwave/Brainwave_Network.PNG){:height="70%" width="70%"}
+![BrainwaveNetwork](https://blog-1256135234.cos.ap-chengdu.myqcloud.com/Brainwave/Brainwave_Network.PNG){:height="80%" width="80%"}
 
 ### Brainwave Architecture & Stack
 * During offline compilation, the Brainwave tool flow splits DNN models into sub-graphs, each of which can fit into on-chip FPGA memory or run on the CPU.
@@ -30,11 +32,11 @@ The Brainwave system targets Microsoft's hyperscale datacenter architecture with
   2. A distributed system architecture mapped onto CPUs and hardware microservices (network-attached FPGAs)
   3. A high-performance soft DNN processing unit synthesized onto FPGAs
 
-  ![BrainwaveLayers](https://blog-1256135234.cos.ap-chengdu.myqcloud.com/Brainwave/Brainwave_Layer.PNG){:height="70%" width="70%"}
+  ![BrainwaveLayers](https://blog-1256135234.cos.ap-chengdu.myqcloud.com/Brainwave/Brainwave_Layer.PNG){:height="80%" width="80%"}
 
 * A pre-trained DNN model developed in a framework is first exported into a common graph intermediate representation (IR).Tool flow optimizes the intermediate representation and partitions it into sub-graphs assigned to different CPUs and FPGAs. Device-specific backends generate device assembly and are linked together by a federated runtime that gets deployed into a live FPGA hardware microservice. The below figure shows the Brainwave tool flow and graph partitioning.
 
-  ![BrainwaveToolFlow](https://blog-1256135234.cos.ap-chengdu.myqcloud.com/Brainwave/brainwave_toolchain.PNG){:height="70%" width="70%"}
+  ![BrainwaveToolFlow](https://blog-1256135234.cos.ap-chengdu.myqcloud.com/Brainwave/brainwave_toolchain.PNG){:height="80%" width="80%"}
 
 
 
