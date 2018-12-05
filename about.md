@@ -8,14 +8,10 @@ titles:
 key: page-about
 ---
 
-![bio_pic](pics/bio_pic1.jpg)
+![bio_pic](https://blog-1256135234.cos.ap-chengdu.myqcloud.com/bio/il_570xN.1493838977_5j4s.jpg)
 
-I'm a fresh PhD student at Tsinghua University, majoring in computer system and architecture.
+I'm a fresh PhD student at Tsinghua University, majoring in computer architecture.
 
-Currently I'm reading papers posted on recent years' ISCA, MICRO, HPCA and ASPLOS.
+Currently I'm focucing on domain-specified hardware for neural network.
 
-My hometown is Chengdu, Sichuan.
-
-Keen on music and movies, recently fascinated by trap music and the group Higher Brothers.
-
-![higher_brothers](pics/Higher_Brothers.jpg){:height="150px", width="300px"}
+Keen on music and movies, recently fascinated by trap music.
