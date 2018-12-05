@@ -5,16 +5,15 @@ key: 2018093001
 lang: en
 tags: [computer architecture a quantitative approach]
 modify_date: 2018-9-30
-pageview: true
 ---
 
 
-## General guide metrics:
-1. Reducing the hit time
-2. Increasing cache bandwidth
-3. Reducing the miss penalty
-4. Reducing the miss rate 
-5. Reducing the miss penalty or miss rate via parallelism
+### General guide metrics:
+* Reducing the hit time
+* Increasing cache bandwidth
+* Reducing the miss penalty
+* Reducing the miss rate 
+* Reducing the miss penalty or miss rate via parallelism
 
 <!--more-->
 
