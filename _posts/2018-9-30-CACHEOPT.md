@@ -5,6 +5,7 @@ key: 2018093001
 lang: en
 tags: [computer architecture a quantitative approach]
 modify_date: 2018-9-30
+pageview: true
 ---
 
 

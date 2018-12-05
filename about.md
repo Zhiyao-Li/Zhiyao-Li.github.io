@@ -8,7 +8,7 @@ titles:
 key: page-about
 ---
 
-![bio_pic](https://blog-1256135234.cos.ap-chengdu.myqcloud.com/bio/il_570xN.1493838977_5j4s.jpg){:height="80%" width="80%"}
+![bio_pic](https://blog-1256135234.cos.ap-chengdu.myqcloud.com/bio/il_570xN.1493838977_5j4s.jpg){:height="70%" width="70%"}
 
 *I'm a fresh PhD student at Tsinghua University, majoring in computer architecture.*
 
